@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     @Override
     public void onClick(View v) {
         // popup message as a test to see if the button is being clicked
-        Toast.makeText(this, "button clicked", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Enter a Word button clicked", Toast.LENGTH_SHORT).show();
     }
 }
