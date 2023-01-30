@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".WordEntryActivity">
 
     <TableLayout
         android:layout_width="match_parent"
@@ -12,11 +12,12 @@
 
         <TableRow
             android:layout_width="match_parent"
-            android:layout_height="match_parent" >
+            android:layout_height="match_parent">
 
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:minHeight="20dp" />
         </TableRow>
 
@@ -25,14 +26,20 @@
             android:layout_height="match_parent" >
 
             <TextView
-                android:id="@+id/dictionaryLookupTextView"
+                android:id="@+id/wordEntryTextView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/dictionaryLookupTextView"
-                android:textAlignment="center"
+                android:text="@string/yourChosenWordTextView"
                 android:textSize="18dp" />
 
+            <EditText
+                android:id="@+id/wordEntryEditText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName" />
         </TableRow>
 
         <TableRow
@@ -42,6 +49,7 @@
             <Space
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:minHeight="20dp" />
         </TableRow>
 
@@ -50,12 +58,13 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:id="@+id/enterWordButton"
+                android:id="@+id/searchWordInDictionaryButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/enterWordButton" />
+                android:text="@string/searchWordInDictionaryButton" />
         </TableRow>
 
     </TableLayout>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
