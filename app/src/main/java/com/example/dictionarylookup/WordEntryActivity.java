@@ -2,6 +2,7 @@ package com.example.dictionarylookup;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -27,7 +28,16 @@ public class WordEntryActivity extends AppCompatActivity implements View.OnClick
 
     @Override
     public void onClick(View v) {
-        // popup message as a test to see if the button is being clicked
-        Toast.makeText(this, "Search up word button clicked", Toast.LENGTH_SHORT).show();
+        String word = wordEntryEditText.getText().toString();
+        Toast.makeText(this, word, Toast.LENGTH_LONG).show();
+
+        // this Intent sends data back to a different Activity, e.g. "MainActivity"
+        Intent i = new Intent();
+        // sends the word inputted by the user
+        i.putExtra("WORD", word);
+        setResult(RESULT_OK, i);
+
+        // finish() means we leave this Activity
+        finish();
     }
 }
