@@ -13,4 +13,4 @@ To learn about different "Activities" or Views, how to navigate between them, an
 
 ## Demo
 
-![demo of the app](linkHere)
+![demo of the app](https://github.com/nicohsfu/dictionary-lookup/blob/main/demo/demo-dictionary-lookup.gif?raw=true)
