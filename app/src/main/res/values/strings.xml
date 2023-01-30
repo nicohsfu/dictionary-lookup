@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">Nico\'s Dictionary Lookup</string>
-    <string name="enterWordButton">Enter a Word</string>
+    <string name="enterAWordButton">Enter a Word</string>
     <string name="dictionaryLookupTextView">Press the button below to begin</string>\
 
-    <string name="searchWordInDictionaryButton">Search Word in Dictionary</string>
-    <string name="yourChosenWordTextView">Your chosen word is:</string>
+    <string name="wordEntryTextView">Your chosen word is:</string>
+    <string name="wordEntryButton">Search Word in Dictionary</string>
 </resources>

@@ -50,11 +50,11 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:id="@+id/enterWordButton"
+                android:id="@+id/enterAWordButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/enterWordButton" />
+                android:text="@string/enterAWordButton" />
         </TableRow>
 
     </TableLayout>

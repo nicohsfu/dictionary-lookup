@@ -30,7 +30,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/yourChosenWordTextView"
+                android:text="@string/wordEntryTextView"
                 android:textSize="18dp" />
 
             <EditText
@@ -58,11 +58,11 @@
             android:layout_height="match_parent" >
 
             <Button
-                android:id="@+id/searchWordInDictionaryButton"
+                android:id="@+id/wordEntryButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:text="@string/searchWordInDictionaryButton" />
+                android:text="@string/wordEntryButton" />
         </TableRow>
 
     </TableLayout>
