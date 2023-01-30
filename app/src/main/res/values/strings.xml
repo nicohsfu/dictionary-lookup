@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Nico\'s Dictionary Lookup</string>
+    <string name="enter_word_button">Enter a Word</string>
+    <string name="dictionaryLookupTextView">Press the button below to begin</string>
 </resources>
